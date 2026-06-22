@@ -1,11 +1,11 @@
 ---
-title: "关于"
+title: "About"
 url: "/about/"
 hidemeta: true
 ShowToc: false
 ShowBreadCrumbs: false
 ---
 
-本站分享一些内容与资源。
+This site shares useful content and resources.
 
-<!-- TODO: 在这里介绍站点或你的产品，可以放产品链接。 -->
+<!-- TODO: Introduce the site or your product here. You can add product links. -->

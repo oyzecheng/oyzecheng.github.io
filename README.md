@@ -1,40 +1,40 @@
-# Blog
+# Owen's Blog
 
-基于 [Hugo](https://gohugo.io/) + [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 的静态博客，部署在 GitHub Pages。
+A static blog built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme, deployed on GitHub Pages.
 
-线上地址：<https://oyzecheng.github.io/>
+Live site: <https://oyzecheng.github.io/>
 
-## 本地预览
+## Local Preview
 
 ```bash
 hugo server -D
 ```
 
-打开 <http://localhost:1313/>。`-D` 表示同时渲染草稿。
+Open <http://localhost:1313/>. `-D` also renders drafts.
 
-## 写新文章
+## Write a New Post
 
 ```bash
 hugo new content posts/my-post.md
 ```
 
-编辑生成的 `content/posts/my-post.md`，写完后把 front matter 里的 `draft: true` 改成 `false`。
+Edit the generated `content/posts/my-post.md`, then change `draft: true` to `false` in the front matter.
 
-## 发布
+## Publish
 
-把改动 push 到 `main` 分支即可。`.github/workflows/hugo.yml` 会自动用 GitHub Actions 构建并部署到 GitHub Pages。
+Push to the `main` branch. `.github/workflows/hugo.yml` builds and deploys to GitHub Pages automatically via GitHub Actions.
 
-## 目录结构
+## Project Structure
 
-| 路径 | 说明 |
+| Path | Description |
 | --- | --- |
-| `content/` | 文章和页面（Markdown） |
-| `static/` | 静态资源（图片等），按原样拷贝到站点根目录 |
-| `themes/PaperMod/` | 主题（git submodule） |
-| `hugo.toml` | 站点配置 |
-| `.github/workflows/` | 自动部署流程 |
+| `content/` | Posts and pages (Markdown) |
+| `static/` | Static assets (images, etc.), copied as-is to the site root |
+| `themes/PaperMod/` | Theme (git submodule) |
+| `hugo.toml` | Site configuration |
+| `.github/workflows/` | Deployment workflow |
 
-## 克隆（记得带上主题 submodule）
+## Clone (with theme submodule)
 
 ```bash
 git clone --recurse-submodules https://github.com/oyzecheng/oyzecheng.github.io.git

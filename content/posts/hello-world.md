@@ -1,33 +1,33 @@
 ---
-title: "开篇：关于这个站点"
+title: "Getting Started"
 date: 2026-06-21T18:00:00+08:00
 draft: false
-tags: ["公告"]
-summary: "站点的第一篇文章，介绍这里会分享什么内容。"
+tags: ["announcement"]
+summary: "The first post on this site — what you'll find here."
 ---
 
-这是本站的第一篇文章。这里会陆续分享一些内容与资源。
+This is the first post on this site. More content and resources will be shared here over time.
 
-## 相关链接
+## Related Links
 
-<!-- 在文章里放外链就像下面这样，把文字和地址换成你自己的产品： -->
+<!-- Add product backlinks like the line below — replace the text and URL with your own product: -->
 
-- [示例产品](https://example.com)
+- [Example Product](https://example.com)
 
-## 怎么发新文章
+## How to Publish a New Post
 
-新建一篇文章：
+Create a new post:
 
 ```bash
 hugo new content posts/my-new-post.md
 ```
 
-写完后把文章顶部 front matter 里的 `draft: true` 改成 `false`，然后提交推送：
+Then change `draft: true` to `false` in the front matter, and commit & push:
 
 ```bash
 git add .
-git commit -m "新文章"
+git commit -m "New post"
 git push
 ```
 
-推送后 GitHub Actions 会自动构建并发布，等一两分钟刷新站点就能看到。
+GitHub Actions will build and deploy automatically. Refresh the site after a minute or two.

@@ -1,8 +1,8 @@
 # 站点基础信息
 baseURL = "https://oyzecheng.github.io/"
-title = "我的博客"                # TODO: 换成你的站点名（建议含目标关键词，利于 SEO）
-locale = "zh-cn"
-defaultContentLanguage = "zh"
+title = "Owen's Blog"
+locale = "en-us"
+defaultContentLanguage = "en"
 theme = "PaperMod"
 
 enableRobotsTXT = true           # 生成 robots.txt，允许搜索引擎抓取
@@ -27,30 +27,30 @@ buildExpired = false
 # 顶部导航菜单
 [menu]
   [[menu.main]]
-    name = "文章"
+    name = "Posts"
     url = "/posts/"
     weight = 10
   [[menu.main]]
-    name = "归档"
+    name = "Archives"
     url = "/archives/"
     weight = 20
   [[menu.main]]
-    name = "标签"
+    name = "Tags"
     url = "/tags/"
     weight = 30
   [[menu.main]]
-    name = "搜索"
+    name = "Search"
     url = "/search/"
     weight = 40
   [[menu.main]]
-    name = "关于"
+    name = "About"
     url = "/about/"
     weight = 50
 
 [params]
   env = "production"
   # 站点描述：会出现在搜索结果摘要里，建议写含目标关键词的一句话
-  description = "分享有用的内容与资源"
+  description = "Useful content and resources."
   defaultTheme = "auto"          # auto / light / dark
   ShowReadingTime = true
   ShowWordCount = true
@@ -62,8 +62,8 @@ buildExpired = false
 
   # 首页顶部展示的简介（不含任何个人身份信息）
   [params.homeInfoParams]
-    Title = "欢迎"
-    Content = "这里分享一些内容与资源，欢迎浏览。"
+    Title = "Welcome"
+    Content = "Sharing useful content and resources here. Feel free to look around."
 
   # 站内搜索（fuse.js）参数
   [params.fuseOpts]
