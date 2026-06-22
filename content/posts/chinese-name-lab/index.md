@@ -7,7 +7,7 @@ description: "A naming tool for English speakers. Every name comes with hanzi, p
 tags: ["side project", "Next.js", "SEO", "Chinese names"]
 categories: ["projects"]
 cover:
-  image: "cover.png"
+  image: "cover.webp"
   alt: "Chinese Name Lab — authentic Chinese names with meaning and pinyin"
   caption: "[chinesenamelab.com](https://chinesenamelab.com)"
   relative: true
